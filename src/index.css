@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  font-family: 'Lato';
+  line-height: 1.5;
+  font-weight: 700;
+  color-scheme: light dark;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+}
+
+html, body {
+  scroll-behavior: smooth;
+  position: relative;
+
+}
+
+.z-100 {
+  z-index: 100;
+}
+
+.Lato {
+  font-family: 'Lato';
+
+}
+
+.poppins {
+  font-family: 'poppins';
+
+}
+
+.Montserrat {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.font_w_800 {
+
+  font-weight: 800;
+}
+
+.font_w_600 {
+
+  font-weight: 600;
+}
+
+.font_w_400 {
+
+  font-weight: 400;
+}
+
+.font_w_500 {
+
+  font-weight: 500;
+}
+
+.font_w_700 {
+
+  font-weight: 700;
+}
+
+.font_w_300 {
+
+  font-weight: 300;
+}
+
+.font_w_200 {
+
+  font-weight: 200;
+}
+
+
+.loader-container {
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: rgba(255, 255, 255, 0.834);
+  z-index: 1;
+}
+
+
+.loder {
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 70px;
+}
+
+.loder div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  animation: loder 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  -webkit-animation: loder 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+
+.loder div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+  background: rgba(7, 26, 43, 1);
+
+}
+
+.loder div:nth-child(2) {
+  background: #facc15;
+  left: 32px;
+  animation-delay: -0.12s;
+}
+
+.loder div:nth-child(3) {
+  background: rgba(7, 26, 43, 1);
+  left: 56px;
+  animation-delay: 0;
+}
+
+.loder div:nth-child(4) {
+  background: #facc15;
+  left: 80px;
+  animation-delay: 0.12s;
+}
+
+@keyframes loder {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+
+  50%, 100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

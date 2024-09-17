@@ -1,0 +1,11 @@
+.Accreditation_Header_img {
+
+    background-image: url('../../assets/images/Accreditation/Accreditation.png');
+    background-size: cover;
+    background-repeat: no - repeat;
+    background-position: center right;
+    width: 100%;
+    height: 100svh;
+
+
+}

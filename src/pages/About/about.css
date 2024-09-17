@@ -1,0 +1,11 @@
+.cam::after {
+    content: '\201D';
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 80px;
+    height: 50px;
+    color: red;
+    font-size: 50px;
+
+}

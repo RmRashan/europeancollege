@@ -1,0 +1,23 @@
+.bgimg {
+
+    background-image: url('../../assets/images/Honorary-Doctorate/gteftfteft.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    width: 100%;
+    height: 720px;
+
+
+}
+
+.Honorary_Header_img {
+
+    background-image: url('../../assets/images/Honorary-Doctorate/heder.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+    width: 100%;
+    height: 100svh;
+
+
+}
